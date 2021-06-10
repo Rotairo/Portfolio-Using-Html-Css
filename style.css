@@ -1,0 +1,50 @@
+html,body,#wrapper
+{
+width:100%;
+min-height:100%;
+}
+body
+{
+background: linear-gradient(grey,pink);
+}
+table
+{
+font-family: verdana;
+background-color: grey;
+color:white;
+border: 2px solid black;
+}
+.navigation:hover
+{
+	background-color:white;
+	color:green;
+}
+a{
+	text-decoration:none;
+}
+.portfolio
+{
+	margin-left:22%;
+	margin-top:30px;
+	border-radius:20px;
+	background-color: pink;
+}
+.portfolio th
+{
+	font-family: verdana;
+	padding: 100px;
+	border-radius:20px;
+	background: linear-gradient(white,grey);
+	font-size: 1.5em;
+	color: black;
+}
+.portfolio th:hover
+{
+	background: linear-gradient(white,grey);
+}
+.footer
+{
+	margin-top: 30px;
+	text-align: center;
+}
+	

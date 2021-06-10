@@ -1,0 +1,37 @@
+html, body, #wrapper {
+width: 100%;
+min-height:100%;
+}
+body {
+	background: linear-gradient(white,grey);
+}
+table {
+	font-family: verdana;
+	background-color: grey;
+	color: white;
+	border: 2px solid black;
+}
+.navigation:hover {
+	background-color: white;
+	color:grey;
+}
+a {
+	text-decoration: none;
+}
+.home {
+	margin: 130px;
+	margin-left: 13%;
+	border-radius: 20px;
+	background-color: grey;
+}
+.home th {
+	border-radius: 20px;
+	background: linear-gradient(white,grey);
+	color: black;
+}
+.home th:hover {
+	background: linear-gradient(black,grey);
+}
+.footer {
+	text-align: center;
+}
